@@ -3,7 +3,7 @@
 /**
  * custom theme functions
  *
- * @package		styles/default
+ * @package		styles/default-blue
  * @author		Patrick Konstandin <support@flatcore.org>
  *
  */

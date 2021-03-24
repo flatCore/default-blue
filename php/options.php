@@ -14,13 +14,7 @@ if(defined('FC_SOURCE') && FC_SOURCE === 'frontend') {
  
 } elseif(defined('FC_SOURCE') && FC_SOURCE == 'backend') {
 
-	/**
-	 * defaultTheme options for acp > system > layout & design
-	 *
-	 */
 
-	$readme = file_get_contents('../styles/default/readme.html');
-	echo $readme;
 	
 }
 
