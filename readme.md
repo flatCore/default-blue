@@ -1,4 +1,4 @@
-# defaultBlue - Simple flatCore CMS Theme
+# simpleColors - Simple flatCore CMS Theme
 
 This theme is mostly a copy of the original __default__ theme.
 
