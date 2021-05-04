@@ -37,8 +37,12 @@
 <meta property="twitter:description" content="{$page_meta_description}">
 <meta property="twitter:image" content="{$page_thumbnail}">
 
-<!-- CSS -->
-<link rel="stylesheet" media="screen" href="{$fc_inc_dir}/styles/{$fc_template}/css/styles.min.css" />
+<!-- simple colors theme -->
+{if $fc_template_stylesheet != ''}
+<link rel="stylesheet" media="screen" href="{$fc_inc_dir}/styles/{$fc_template}/css/{$fc_template_stylesheet}" />
+{else}
+<link rel="stylesheet" media="screen" href="{$fc_inc_dir}/styles/{$fc_template}/css/theme_blue.min.css" />
+{/if}
 
 <!-- js -->
 <script type="text/javascript" src="{$fc_inc_dir}/styles/{$fc_template}/js/main.min.js"></script>

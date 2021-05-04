@@ -1,0 +1,26 @@
+/*
+ * simple colors Theme - blue
+ * Copyright 2021 flatCore CMS
+ */
+
+$primary: #28527a !default;
+$secondary: #8ac4d0 !default;
+$success: #28a745 !default;
+$info: #fbeeac !default;
+$warning: #f4d160 !default;
+$danger: #dc3545 !default;
+$light: #f8f9fa !default;
+$dark: #343a40 !default;
+
+
+$body-bg: #ffffff !default;
+$body-color: #212529 !default;
+
+
+$link-color: $primary !default;
+$headings-color: desaturate($primary,33%);
+
+$header-bg: darken($primary,5%);
+$footer-bg: darken($primary,10%);
+
+@import 'styles';

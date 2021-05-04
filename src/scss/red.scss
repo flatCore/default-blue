@@ -1,0 +1,26 @@
+/*
+ * simple colors Theme - red
+ * Copyright 2021 flatCore CMS
+ */
+
+$primary: #d92027 !default;
+$secondary: #ff9234 !default;
+$success: #28a745 !default;
+$info: #35d0ba !default;
+$warning: #ffcd3c !default;
+$danger: lighten($primary,15) !default;
+$light: #f8f9fa !default;
+$dark: #343a40 !default;
+
+
+$body-bg: #ffffff !default;
+$body-color: #212529 !default;
+
+
+$link-color: $primary !default;
+$headings-color: desaturate($primary,33%);
+
+$header-bg: darken($primary,5%);
+$footer-bg: darken($primary,10%);
+
+@import 'styles';
